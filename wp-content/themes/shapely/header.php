@@ -40,7 +40,7 @@
                                     <?php shapely_header_menu(); // main navigation ?>
                                 </div>
                                 <!--end of menu module-->
-                                <div class="module widget-handle search-widget-handle left">
+                                <!--div class="module widget-handle search-widget-handle left">
                                     <div class="search">
                                         <i class="fa fa-search"></i>
                                         <span class="title"><?php _e("Site Search", 'shapely'); ?></span>
@@ -48,7 +48,7 @@
                                     <div class="function"><?php
                                         get_search_form(); ?>
                                     </div>
-                                </div>
+                                </div-->
                             </div>
                             <!--end of module group-->
                         </div>
