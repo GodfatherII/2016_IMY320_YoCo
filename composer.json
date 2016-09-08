@@ -6,7 +6,8 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
-        "laravel/framework": "5.3.*"
+        "laravel/framework": "5.3.*",
+        "laraveldaily/quickadmin": "^2.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -30,22 +31,21 @@
     },
     "scripts": {
         "post-root-package-install": [
-            "/usr/bin/php-cli -r \"file_exists('.env') || copy('.env.example', '.env');\""
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
         "post-create-project-cmd": [
-            "/usr/bin/php-cli artisan key:generate"
+            "php artisan key:generate"
         ],
         "post-install-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postInstall",
-            "/usr/bin/php-cli artisan optimize"
+            "php artisan optimize"
         ],
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
-            "/usr/bin/php-cli artisan optimize"
+            "php artisan optimize"
         ]
     },
     "config": {
-        "preferred-install": "dist",
-	"cache-dir": "/home/marabjxl/public_html/bc/cache"
+        "preferred-install": "dist"
     }
 }
