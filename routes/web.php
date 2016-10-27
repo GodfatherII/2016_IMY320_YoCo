@@ -27,4 +27,8 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/hackathon', function () {
+    return view('hackathon');
+});
+
 Route::post('/send', 'EmailController@send');

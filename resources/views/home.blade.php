@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
+    <!--meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template "-->
     <meta name="author" content="">
 
     <title>Marabele Business Club</title>
@@ -93,7 +93,7 @@
 					
 					<li class="menuItem"><a href="{{ url('/home') }}">Home</a></li>
 					<li class="menuItem"><a href="http://calendar.marabele.com">Calendar</a></li>
-					<li class="menuItem"><a href="http://hackathon.marabele.com">Hackathon</a></li>
+					<li class="menuItem"><a href="{{ url('/hackathon') }}">Hackathon</a></li>
 					<li class="menuItem"><a href="#useit">About</a></li>
 					<li class="menuItem"><a href="{{ url('/contact') }}">Contact</a></li>
 				</ul>

@@ -93,7 +93,7 @@
 					
 					<li class="menuItem"><a href="#whatis">Home</a></li>
 					<li class="menuItem"><a href="http://calendar.marabele.com">Calendar</a></li>
-					<li class="menuItem"><a href="http://hackathon.marabele.com">Hackathon</a></li>
+					<li class="menuItem"><a href="{{ url('/hackathon') }}">Hackathon</a></li>
 					<li class="menuItem"><a href="{{ url('/about') }}">About</a></li>
 					<li class="menuItem"><a href="{{ url('/contact') }}">Contact</a></li>
 				</ul>
